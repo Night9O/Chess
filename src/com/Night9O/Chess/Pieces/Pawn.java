@@ -16,14 +16,7 @@ public class Pawn extends Piece
         this.color = color;
     }
 
-    /**
-     * THIS IS WHAT HAPPENS WHEN YOU SKIP DATA STRUCTURE CLASSES!!!!!!!!!
-     * MY LORD IM SORRY FOR THIS CODE GORE I HAVE SINNED, FORGIVE ME FOR I AM A SIMP
-     * @param pieceX X coordinate of the pawn piece
-     * @param pieceY Y coordinate of the pawn piece
-     * @param board: Board instance to get the locations of all the pieces
-     * @return my miserable life
-     */
+
     @Override
     public int[][] giveLegalMovements(int pieceX, int pieceY, Board board)
     {
